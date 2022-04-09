@@ -1,0 +1,101 @@
+.vodApp {
+    min-height: 100vh;
+}
+
+.carousleDiv {
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.vodApp_nav {
+    position: absolute;
+    z-index: 3;
+    min-height: 75px;
+    width: 100%;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3em;
+    color: rgb(222, 30, 30);
+    transition: 800ms;
+    text-shadow: 0px 0px 0 rgb(54, 49, 48), 1px 1px 0 rgb(49, 44, 43), 2px 2px 0 rgb(44, 39, 38), 3px 3px 0 rgb(39, 34, 33), 4px 4px 0 rgb(34, 29, 28), 5px 5px 0 rgb(29, 24, 23), 6px 6px 0 rgb(24, 19, 18), 7px 7px 0 rgb(19, 14, 13), 8px 8px 0 rgb(14, 9, 8), 9px 9px 0 rgb(9, 4, 3), 10px 10px 0 rgb(4, -1, 0), 11px 11px 10px rgba(0, 0, 0, 0.6), 11px 11px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.vodApp-input {
+    border: solid white 2px;
+    background: rgba(0, 0, 0, 0.497);
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 10px 13px -7px #ffff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.vodApp-inputS {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.vodApp-inputS:focus {
+    outline: none;
+}
+
+.vodApp-inputS::placeholder {
+    color: white;
+    font-weight: 500;
+}
+
+.yearLinks-link {
+    text-decoration: none;
+    color: rgb(142, 141, 141);
+    cursor: pointer;
+    transition: 800ms;
+}
+
+.yearLinks-link:hover {
+    color: white;
+}
+
+.selectYears {
+    font-weight: bold;
+}
+
+.itemInfo-img {
+    box-shadow: 0px 10px 13px -7px #ffff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+}
+
+.itemInfo-btn {
+    box-shadow: 0px 10px 13px -7px rgb(207, 198, 186), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.flash {
+    background-position-y: -100px;
+}
+
+.batman {
+    background-position-y: -20px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        font-size: 2em;
+    }
+    .vodApp-input {
+        width: 70%;
+    }
+    .flash {
+        background-position-y: 0;
+    }
+    .batman {
+        background-position-y: 0;
+    }
+}

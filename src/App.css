@@ -1,0 +1,6 @@
+/* global css */
+header nav .nav li a{
+  padding:0 8px;
+  color:black;
+  text-decoration: none;
+}
